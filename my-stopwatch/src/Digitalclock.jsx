@@ -15,7 +15,10 @@ function Digitalclock(){
         const seconds=time.getSeconds();
         const meridiem=hours >=12? "Pm":"Am";
         hours=hours%12||12;
-        return`${hours}:${minutes}:${seconds} ${meridiem}`;
+        return`${padZero(hours)}:${padZero(minutes)}:${padZero(seconds)} ${padZero(meridiem)}`;
+    }
+    function padZero(number){
+        return (number <10? "0":"")+number;
     }
 
 
