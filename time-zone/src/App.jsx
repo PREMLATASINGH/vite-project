@@ -18,9 +18,14 @@ function App() {
   }
 
   return (
-    <>
+    <><h1>time zone</h1>
     
       <div>{time()}</div>
+      <div className="card">
+        <button onClick={handleClick}>count is {count}</button>
+        <button onClick={handleClick2}>decrease count is {count}</button>
+      </div>  
+      
     </>
   )
 }
