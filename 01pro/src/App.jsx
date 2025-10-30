@@ -23,6 +23,10 @@ function App() {
   function styleChange1(){
     document.body.style.color="red"  
   }
+  function styleChange3(){
+    document.body.style.fontSize="20px"  
+  }
+  
 
   return (
     <>
@@ -33,7 +37,8 @@ function App() {
       <button onClick={styleChange}>Style Change</button>
       <button onClick={styleChange2}>Style Change1</button>
       <button onClick={styleChange1}>Style Change2</button>
-
+      <button onClick={styleChange3}>Style Change3</button>
+      
     </>
   )
 }
