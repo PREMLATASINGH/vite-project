@@ -15,7 +15,13 @@ function App() {
     setCount(0)
   }
   function styleChange(){
-    document.body.style.backgroundColor="blue"
+    document.body.style.backgroundColor="lightblue"
+  }
+  function styleChange2(){
+    document.body.style.backgroundColor="lightgreen"  
+  }
+  function styleChange1(){
+    document.body.style.color="red"  
   }
 
   return (
@@ -25,6 +31,8 @@ function App() {
       <button onClick={decreaseCount}>Count is {count}</button> 
       <button onClick={reset}>Reset</button>
       <button onClick={styleChange}>Style Change</button>
+      <button onClick={styleChange2}>Style Change1</button>
+      <button onClick={styleChange1}>Style Change2</button>
 
     </>
   )
