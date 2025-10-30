@@ -14,6 +14,9 @@ function App() {
   function reset(){
     setCount(0)
   }
+  function styleChange(){
+    document.body.style.backgroundColor="blue"
+  }
 
   return (
     <>
@@ -21,6 +24,7 @@ function App() {
       <button onClick={handleClick}>Count is {count}</button>
       <button onClick={decreaseCount}>Count is {count}</button> 
       <button onClick={reset}>Reset</button>
+      <button onClick={styleChange}>Style Change</button>
 
     </>
   )
