@@ -2,6 +2,7 @@
  function Style() {
     const[color,setColor]=useState()
     const[time,setTime]=useState()
+    
     function changeColor(){
         setColor("blue")
     }
@@ -15,6 +16,8 @@
         const hours=new Date().getHours()
         setTime(hours)
     }
+    
+   
    
     return(<>
         <h2>Good evening</h2>
@@ -23,8 +26,8 @@
         <button onClick={changeFontSize}>Change Font Size</button>
         <button onClick={resetFontSize}>Reset Font Size</button> 
         <button onClick={changeTime}>Show Time</button>
-        <h3>Time is:{time}</h3>   
-    </>
+        <h3>Time is:{time}</h3> 
+         </>
 
     )
 }
