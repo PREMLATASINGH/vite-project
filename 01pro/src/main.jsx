@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import Style from './Style.jsx'
 import Component from './Component.jsx'
+import List from './List.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -11,6 +12,7 @@ createRoot(document.getElementById('root')).render(
     <App />
     <Style/>
     <Component/>
+    <List/>
     
   </StrictMode>,
 )
