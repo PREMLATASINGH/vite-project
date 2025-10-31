@@ -16,6 +16,9 @@
         const hours=new Date().getHours()
         setTime(hours)
     }
+    function resetTime(){
+        setTime("")
+    }
     
    
    
@@ -26,7 +29,9 @@
         <button onClick={changeFontSize}>Change Font Size</button>
         <button onClick={resetFontSize}>Reset Font Size</button> 
         <button onClick={changeTime}>Show Time</button>
-        <h3>Time is:{time}</h3> 
+        <h3>Time is:{time}</h3>
+        <button onClick={resetTime}>Reset Time</button> 
+
          </>
 
     )
