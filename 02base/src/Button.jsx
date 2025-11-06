@@ -1,9 +1,14 @@
 function Button() {
   return (<><div class="btn-group">
-  <a href="https://www.google.com"class="btn btn-primary active" aria-current="page">Active link</a>
+  <a href="https://www.google.com"class="btn btn-success" aria-current="page">Active link</a>
   
 </div>
-  <button className="btn btn-primary">Click Me</button></>)
+<div class="btn-group" role="group" aria-label="Basic mixed styles example">
+  <button type="button" class="btn btn-danger">Left</button>
+  <button type="button" class="btn btn-warning">Middle</button>
+  <button type="button" class="btn btn-success">Right</button>
+</div>
+  <button className="btn btn-warning">Click Me</button></>)
   ;
 }
 export default Button;
