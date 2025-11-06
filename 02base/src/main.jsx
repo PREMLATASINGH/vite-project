@@ -4,10 +4,12 @@ import './index.css'
 import App from './App.jsx'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from './Button.jsx';
+import Card from './Card.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
     <Button />
+    <Card />
   </StrictMode>,
 )
