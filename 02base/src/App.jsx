@@ -32,6 +32,7 @@ function App() {
 <div class="alert alert-dark" role="alert">
   A simple dark alert—check it out!
 </div>
+<p> this is all type of alert</p>
     </>
   )
 }
