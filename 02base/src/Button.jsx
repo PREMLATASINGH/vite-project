@@ -8,6 +8,7 @@ function Button() {
   <button type="button" class="btn btn-warning">Middle</button>
   <button type="button" class="btn btn-success">Right</button>
 </div>
+
   <button className="btn btn-warning">Click Me</button></>)
   ;
 }
