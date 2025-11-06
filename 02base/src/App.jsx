@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <><h1>Alert</h1>
     <div class="alert alert-primary" role="alert">
   A simple primary alert—check it out!
 </div>
