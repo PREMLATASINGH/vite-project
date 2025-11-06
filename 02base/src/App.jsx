@@ -5,6 +5,9 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  function handleClick() {
+    document.body.style.backgroundColor = 'blue';
+  }
 
   return (
     <><h1>Alert</h1>
@@ -33,6 +36,8 @@ function App() {
   A simple dark alert—check it out!
 </div>
 <p> this is all type of alert</p>
+<button onClick={handleClick} className="btn btn-danger">Click to change background color</button>
+
     </>
   )
 }
