@@ -11,6 +11,7 @@ function App() {
     <>
      <h1>hi</h1> 
       <img src={image} alt="description of image" className='image' />
+        
     </>
   )
 }
