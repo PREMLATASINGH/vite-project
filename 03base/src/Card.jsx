@@ -1,5 +1,6 @@
 import React from 'react';
-import image from "./assets/image.jpg";
+import image from "./assets/uday.jpg";54
+
 function Card() {
   return (
     <div className="card">
