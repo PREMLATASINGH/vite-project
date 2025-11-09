@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Card from './Card.jsx';
+import Button from './Button.jsx';
 
 
 createRoot(document.getElementById('root')).render(
@@ -11,6 +12,7 @@ createRoot(document.getElementById('root')).render(
     <App />
     <Card />
     <Card/>
+    <Button/>
     
   </StrictMode>,
 )
