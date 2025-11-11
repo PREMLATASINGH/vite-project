@@ -24,11 +24,12 @@ function App() {
     <>
      <h1>hi everyone</h1>
      <p>I am prema .I am frontend developer.</p>
+     
      <button onClick={handleClick}>Change Background Color</button>
       <button onClick={handleClick1}>Change Background Color</button>
       <button onClick={handleClick2}>Change Text Color</button>
       <button onClick={handleClick3}>Change Text Box Color</button>
-     
+      
     </>
   )
 }
