@@ -8,11 +8,19 @@ function App() {
   function handleClick() {
   document.body.style.backgroundColor = 'blue';
   }
+  function handleClick1(){
+    document.body.style.backgroundColor = 'red';
+  }
+  function handleClick2(){
+    document.body.style.color = 'green';
+  }
 
   return (
     <>
      <h1>hi everyone</h1>
      <button onClick={handleClick}>Change Background Color</button>
+      <button onClick={handleClick1}>Change Background Color</button>
+      <button onClick={handleClick2}>Change Text Color</button>
     </>
   )
 }
