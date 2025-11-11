@@ -14,6 +14,9 @@ function App() {
   function handleClick2(){
     document.body.style.color = 'green';
   }
+  function handleClick3(){
+    document.body.style.fontSize = '20px';
+  }
 
   return (
     <>
@@ -21,6 +24,7 @@ function App() {
      <button onClick={handleClick}>Change Background Color</button>
       <button onClick={handleClick1}>Change Background Color</button>
       <button onClick={handleClick2}>Change Text Color</button>
+      <button onClick={handleClick3}>Change Text Box Color</button>
     </>
   )
 }
